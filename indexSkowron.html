@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS_Skowron/styleSkowron.css">
+  <title>Kawiarnia Arra Erwin Skowron 57276</title>
+</head>
+<body>
+
+  <header>
+    <h1>Kawiarnia Arra Erwin Skowron 57276</h1>
+  </header>
+
+  <h1>Witaj w naszej kawiarni! Wpisz swoje dane, aby kontynuować</h1>
+
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>Imie</th>
+        <th>Nazwisko</th>
+        <th>Wiek</th>
+        <th>Miasto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" id="imie" name="imie" class="center-input"></td>
+        <td><input type="text" id="nazwisko" name="nazwisko" class="center-input"></td>
+        <td><input type="text" id="wiek" name="wiek" class="center-input"></td>
+        <td><input type="text" id="miasto" name="miasto" class="center-input"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="center-container">
+    <button id="registerButton" class="register-button">Zarejestruj</button>
+  </div>
+
+  <div id="userData" class="hidden">
+    <h2>Twoje dane:</h2>
+    <p id="userDataImie"></p>
+    <p id="userDataNazwisko"></p>
+    <p id="userDataWiek"></p>
+    <p id="userDataMiasto"></p>
+
+    <nav id="userNavigation">
+      <ul>
+        <li><a href="HTML_Skowron/kawiarnia.html">Kawiarnia</a></li>
+        <li><a href="HTML_Skowron/graSkowron.html">Gra</a></li>
+        <li><a href="HTML_Skowron/graDwaSkowron.html">Druga gra</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="JS_Skowron/JS_Skowron.js"></script>
+
+  <footer>&copy; Kawiarnia 2023 Erwin Skowron</footer>
+
+</body>
+</html>

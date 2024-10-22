@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS_Skowron/styleSkowron.css">
+  <title>Kawiarnia Arra Erwin Skowron 57276</title>
+</head>
+<body>
+
+  <header>
+    <h1>Kawiarnia Arra Erwin Skowron 57276</h1>
+  </header>
+
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>Wybierz produkt</th>
+        <th>Wpisz cenę</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" id="produkt" name="produkt" class="center-input"></td>
+        <td><input type="text" id="cena" name="cena" class="center-input"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="center-container">
+    <button id="wczytajDaneButton" class="wczytajDaneButton">Dodaj produkt</button>
+  </div>
+
+  <table id="summaryTable">
+    <tbody>
+      <tr>
+        <td>Suma:</td>
+        <td id="sumaCell">0</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <nav id="userNavigation">
+    <ul>
+        <li><a href="../indexSkowron.html">Rejestracja</a></li>
+      <li><a href="graSkowron.html">Gra</a></li>
+      <li><a href="kawiarnia.html">Kawiarnia</a></li>
+    </ul>
+  </nav>
+  <script src="../JS_Skowron/JS_graDwaSkowron.js"></script>
+
+  <footer>&copy; Kawiarnia 2023 Erwin Skowron</footer>
+
+</body>
+</html>

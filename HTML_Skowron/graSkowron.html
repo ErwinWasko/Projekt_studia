@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS_Skowron/styleSkowron.css">
+  <title>Kawiarnia Arra Erwin Skowron 57276</title>
+</head>
+<body>
+
+  <header>
+    <h1>Kawiarnia Arra Erwin Skowron 57276</h1>
+  </header>
+<br>
+  <button onclick="changeAnimalRandomSkowron()">Random Change Animal</button>
+  <button onclick="changeAnimalSkowron()">Change Animal</button>
+  <button onclick="changeMusic()">Change Music</button>
+  <p id="randomChangeCounter">Licznik Random Change Animal: 0</p>
+  <p id="changeAnimalCounter">Licznik Change Animal: 0</p>
+  <p id="changeMusicCounter">Licznik Change Music: 0</p>
+  <br>
+  <img id="animal" src="../IMG_Skowron/kot.jpg" title="kot" onclick="changeAnimalSkowron()">
+  <select id="animalList">
+    <option value="../IMG_Skowron/kot.jpg">Kot</option>
+    <option value="../IMG_Skowron/pies.jpg">Pies</option>
+    <option value="../IMG_Skowron/krowa.jpg">Krowa</option>
+    <option value="../IMG_Skowron/delfin.jpg">Delfin</option>
+    <option value="../IMG_Skowron/mysz.jpg">Mysz</option>
+    <option value="../IMG_Skowron/rekin.jpg">Rekin</option>
+  </select>
+  <audio id="music" controls>
+    <source src="../Audio_Skowron/kot.mp3" type="audio/mpeg">
+  </audio>
+
+  <nav id="userNavigation">
+    <ul>
+        <li><a href="../indexSkowron.html">Rejestracja</a></li>
+      <li><a href="kawiarnia.html">Kawiarnia</a></li>
+      <li><a href="graDwaSkowron.html">Druga gra</a></li>
+    </ul>
+  </nav>
+
+  <script src="../JS_Skowron/JS_graSkowron.js"></script>
+
+  <footer>&copy; Kawiarnia 2023 Erwin Skowron</footer>
+
+</body>
+</html>
